@@ -21,7 +21,7 @@ def form_requests():
 		smtp_server = "smtp.gmail.com"
 		sender_email = os.environ["SENDER_EMAIL"]
 		receiver_email = os.environ["RECEIVER_EMAIL"]
-		password = os.environ["RECEIVER_PASSWORD"]
+		password = os.environ["SENDER_PASSWORD"]
 
 		message = """\
 		<b>Auteur:</b> %s<br>
